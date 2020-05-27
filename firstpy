@@ -1,0 +1,70 @@
+#!/bin/python3
+
+#Variables and Methods
+
+quote = "I cannot believe I am learning how to hack!"
+
+print(quote)
+
+
+print(quote.upper()) #uppercase
+print(quote.lower()) #lowercase
+print(quote.title()) #title case
+
+print(len(quote))
+
+name = "Raffaellooo" #string
+age = 31 #int int(30)
+gpa = 3.3 #float  
+
+
+print(int(age))
+print(int(31.3))
+
+print("My name is " + name + " and I am " + str(age) + " years old.")
+
+age += 1 
+print (age)
+
+birthday = 1 
+age += birthday 
+print(age)
+
+print('\n')
+#functions
+print("Here is an example of a function:")
+
+def who_am_i():	
+	name ="Raffaellooo"
+	age = "31"
+	print("My name is " + name + " and I am " + str(age) + " years old.")
+
+
+who_am_i()
+
+#adding parameters
+def add_one_hundred(num):
+	print(num + 100)
+	
+add_one_hundred(100)
+
+#multiple parameters
+def add(x,y):
+	print(x+y)
+	
+add(7,7)
+
+def multiply(x,y):
+	return x * y
+	
+print (multiply(7,7))
+
+def square_root(x):
+	print(x ** .5)
+	
+square_root(64)
+
+def nl():
+	print('\n')
+
+nl()
